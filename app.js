@@ -6,8 +6,10 @@
 */
 
 // Express init
+// var app = require('express')(); // как варик делать так
 var express = require('express');
 var app = express();
+
 
 app.set('view engine', 'ejs');   // иниц. шаблнизатора
 app.use(express.static('./public'));  // статичные файли(СSS, JS)
