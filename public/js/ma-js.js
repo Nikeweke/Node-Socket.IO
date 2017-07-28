@@ -1,6 +1,10 @@
-$(function($){
 
   var socket = io.connect(); // Переменная для сокетов
+  
+  //var options = {                  // some options
+  // transports: [ 'websocket']
+  // };
+  // var socket = io.connect('http://' + window.location.host, options);   // for server 
 
   var $userForm = $('#user-form'); // форма
   var $userNick = $('#nickname') // поле ввода
